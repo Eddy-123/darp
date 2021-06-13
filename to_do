@@ -1,0 +1,14 @@
+Cities file
+#	add the distance matrix code
+
+Genetic Algorithm file
+#	import cities
+#	import distance matrix
+Walid	fitness function
+Eddy	initial_path function
+Eddy	generate the population
+Walid	use tabu search for the selection phase(parents)
+	crossover
+	mutation
+	get_best_current(population)
+	fig
