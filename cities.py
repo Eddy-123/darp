@@ -78,8 +78,8 @@ def dist(file):
         matdis.append(X)
     return matdis
 cities_generate('cities.txt')
-mat_dis('dis.txt')
-print(dist('dis.txt'))
+mat_dis('distance.txt')
+print(dist('distance.txt'))
 
 
 
