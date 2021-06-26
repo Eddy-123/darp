@@ -13,7 +13,7 @@ def cities_generate(file):
     cities=[]
     with open(file, 'a') as the_file:
         the_file.write('{} {} {} {} {}\n'.format(0, 0, 0, 0, 0))
-        for i in range(1, 26):
+        for i in range(1, 1000):
 
             x=int(random.random() * 200)
             y=int(random.random() * 200)
@@ -77,9 +77,9 @@ def dist(file):
             X.append(x)
         matdis.append(X)
     return matdis
-cities_generate('cities.txt')
-mat_dis('distance.txt')
-print(dist('distance.txt'))
+cities_generate('cities2.txt')
+mat_dis('distance2.txt')
+#print(dist('distance.txt'))
 
 
 
